@@ -13,9 +13,16 @@
 		9AF2F1DE224DCE3800D18AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2F1DD224DCE3800D18AEB /* Assets.xcassets */; };
 		9AF2F1E1224DCE3800D18AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2F1DF224DCE3800D18AEB /* LaunchScreen.storyboard */; };
 		9AF2F1E4224DCE3800D18AEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2F1E3224DCE3800D18AEB /* main.m */; };
+		9AF2F1EC224DE98700D18AEB /* SecureCodeTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2F1EA224DE98600D18AEB /* SecureCodeTimerManager.m */; };
+		9AF2F1EF224DEA6400D18AEB /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2F1ED224DEA6400D18AEB /* LoginVC.m */; };
+		9AF2F1F2224DED6F00D18AEB /* UITextField+common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2F1F1224DED6F00D18AEB /* UITextField+common.m */; };
+		9AF2F1F5224DEDC600D18AEB /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2F1F3224DEDC600D18AEB /* NSString+Additions.m */; };
+		9AF2F1F8224DF0EA00D18AEB /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2F1F7224DF0EA00D18AEB /* RegisterVC.m */; };
+		C5D42CFABC12B5785C30598E /* libPods-SecureCodeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCD4328449E14DE57FD9EC7 /* libPods-SecureCodeDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		369EE4C5FD2D2B726F6F41C1 /* Pods-SecureCodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureCodeDemo.debug.xcconfig"; path = "Target Support Files/Pods-SecureCodeDemo/Pods-SecureCodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9AF2F1D1224DCE3400D18AEB /* SecureCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF2F1D4224DCE3400D18AEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AF2F1D5224DCE3400D18AEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,18 @@
 		9AF2F1E0224DCE3800D18AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AF2F1E2224DCE3800D18AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF2F1E3224DCE3800D18AEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AF2F1EA224DE98600D18AEB /* SecureCodeTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCodeTimerManager.m; sourceTree = "<group>"; };
+		9AF2F1EB224DE98700D18AEB /* SecureCodeTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureCodeTimerManager.h; sourceTree = "<group>"; };
+		9AF2F1ED224DEA6400D18AEB /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		9AF2F1EE224DEA6400D18AEB /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		9AF2F1F0224DED6F00D18AEB /* UITextField+common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+common.h"; sourceTree = "<group>"; };
+		9AF2F1F1224DED6F00D18AEB /* UITextField+common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+common.m"; sourceTree = "<group>"; };
+		9AF2F1F3224DEDC600D18AEB /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		9AF2F1F4224DEDC600D18AEB /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		9AF2F1F6224DF0EA00D18AEB /* RegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		9AF2F1F7224DF0EA00D18AEB /* RegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		9FCD4328449E14DE57FD9EC7 /* libPods-SecureCodeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecureCodeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63E71CF133CDAD369D0CFB1 /* Pods-SecureCodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureCodeDemo.release.xcconfig"; path = "Target Support Files/Pods-SecureCodeDemo/Pods-SecureCodeDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D42CFABC12B5785C30598E /* libPods-SecureCodeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D88B1DC5E939E0EAB4194E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FCD4328449E14DE57FD9EC7 /* libPods-SecureCodeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9AF2F1C8224DCE3400D18AEB = {
 			isa = PBXGroup;
 			children = (
 				9AF2F1D3224DCE3400D18AEB /* SecureCodeDemo */,
 				9AF2F1D2224DCE3400D18AEB /* Products */,
+				A409BF17CE756449A49A68D6 /* Pods */,
+				00D88B1DC5E939E0EAB4194E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +88,52 @@
 		9AF2F1D3224DCE3400D18AEB /* SecureCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9AF2F1D4224DCE3400D18AEB /* AppDelegate.h */,
-				9AF2F1D5224DCE3400D18AEB /* AppDelegate.m */,
-				9AF2F1D7224DCE3400D18AEB /* ViewController.h */,
-				9AF2F1D8224DCE3400D18AEB /* ViewController.m */,
-				9AF2F1DA224DCE3400D18AEB /* Main.storyboard */,
+				9AF2F1FA224DF4B200D18AEB /* Category */,
+				9AF2F1F9224DF4A200D18AEB /* Class */,
 				9AF2F1DD224DCE3800D18AEB /* Assets.xcassets */,
-				9AF2F1DF224DCE3800D18AEB /* LaunchScreen.storyboard */,
 				9AF2F1E2224DCE3800D18AEB /* Info.plist */,
+				9AF2F1DF224DCE3800D18AEB /* LaunchScreen.storyboard */,
 				9AF2F1E3224DCE3800D18AEB /* main.m */,
+				9AF2F1DA224DCE3400D18AEB /* Main.storyboard */,
 			);
 			path = SecureCodeDemo;
+			sourceTree = "<group>";
+		};
+		9AF2F1F9224DF4A200D18AEB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9AF2F1D4224DCE3400D18AEB /* AppDelegate.h */,
+				9AF2F1D5224DCE3400D18AEB /* AppDelegate.m */,
+				9AF2F1F6224DF0EA00D18AEB /* RegisterVC.h */,
+				9AF2F1F7224DF0EA00D18AEB /* RegisterVC.m */,
+				9AF2F1EE224DEA6400D18AEB /* LoginVC.h */,
+				9AF2F1ED224DEA6400D18AEB /* LoginVC.m */,
+				9AF2F1EB224DE98700D18AEB /* SecureCodeTimerManager.h */,
+				9AF2F1EA224DE98600D18AEB /* SecureCodeTimerManager.m */,
+				9AF2F1D7224DCE3400D18AEB /* ViewController.h */,
+				9AF2F1D8224DCE3400D18AEB /* ViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9AF2F1FA224DF4B200D18AEB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9AF2F1F4224DEDC600D18AEB /* NSString+Additions.h */,
+				9AF2F1F3224DEDC600D18AEB /* NSString+Additions.m */,
+				9AF2F1F0224DED6F00D18AEB /* UITextField+common.h */,
+				9AF2F1F1224DED6F00D18AEB /* UITextField+common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A409BF17CE756449A49A68D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				369EE4C5FD2D2B726F6F41C1 /* Pods-SecureCodeDemo.debug.xcconfig */,
+				B63E71CF133CDAD369D0CFB1 /* Pods-SecureCodeDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AF2F1E7224DCE3800D18AEB /* Build configuration list for PBXNativeTarget "SecureCodeDemo" */;
 			buildPhases = (
+				5F042E569A5D584C30EBE929 /* [CP] Check Pods Manifest.lock */,
 				9AF2F1CD224DCE3400D18AEB /* Sources */,
 				9AF2F1CE224DCE3400D18AEB /* Frameworks */,
 				9AF2F1CF224DCE3400D18AEB /* Resources */,
@@ -136,13 +202,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F042E569A5D584C30EBE929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureCodeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AF2F1CD224DCE3400D18AEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF2F1F5224DEDC600D18AEB /* NSString+Additions.m in Sources */,
 				9AF2F1D9224DCE3400D18AEB /* ViewController.m in Sources */,
+				9AF2F1EC224DE98700D18AEB /* SecureCodeTimerManager.m in Sources */,
+				9AF2F1EF224DEA6400D18AEB /* LoginVC.m in Sources */,
 				9AF2F1E4224DCE3800D18AEB /* main.m in Sources */,
+				9AF2F1F8224DF0EA00D18AEB /* RegisterVC.m in Sources */,
+				9AF2F1F2224DED6F00D18AEB /* UITextField+common.m in Sources */,
 				9AF2F1D6224DCE3400D18AEB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +379,7 @@
 		};
 		9AF2F1E8224DCE3800D18AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369EE4C5FD2D2B726F6F41C1 /* Pods-SecureCodeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +397,7 @@
 		};
 		9AF2F1E9224DCE3800D18AEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63E71CF133CDAD369D0CFB1 /* Pods-SecureCodeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
