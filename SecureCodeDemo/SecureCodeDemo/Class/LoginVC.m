@@ -35,7 +35,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginTimerCountDownExecutingWithTimeOut:) name:kLoginCountDownExecutingNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginTimerCountDownCompleted) name:kLoginCountDownCompletedNotification object:nil];
     
-    //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillEnterForegroundNotification) name:UIApplicationDidEnterBackgroundNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillEnterForegroundNotification) name:UIApplicationDidEnterBackgroundNotification object:nil];
     UITapGestureRecognizer *tapGR = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapGRAction:)];
     [self.view addGestureRecognizer:tapGR];
     [self setupView];
@@ -271,8 +271,7 @@
 #pragma mark - 获取验证码请求
 -(void)secureCodeRequest{
     // 请求结束后 停止定时器
-//    [[SecureCodeTimerManager sharedInstance] cancelTimerWithType:kCountDownTypeLogin];
-
+    [[SecureCodeTimerManager sharedInstance] cancelTimerWithType:kCountDownTypeLogin];
 }
 
 -(NSAttributedString *)placeholderAttributesStr:(NSString *)str{

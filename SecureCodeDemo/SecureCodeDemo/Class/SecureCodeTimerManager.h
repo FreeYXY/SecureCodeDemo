@@ -12,11 +12,13 @@
 #define kFindPasswordCountDownCompletedNotification     @"kFindPasswordCountDownCompletedNotification"
 #define kRegisterCountDownCompletedNotification         @"kRegisterCountDownCompletedNotification"
 #define kModifyPhoneCountDownCompletedNotification      @"kModifyPhoneCountDownCompletedNotification"
+#define kPwdManagerCountDownCompletedNotification        @"kPwdManagerCountDownCompletedNotification"
 
 #define kLoginCountDownExecutingNotification            @"kLoginCountDownExecutingNotification"
 #define kFindPasswordCountDownExecutingNotification     @"kFindPasswordCountDownExecutingNotification"
 #define kRegisterCountDownExecutingNotification         @"kRegisterCountDownExecutingNotification"
 #define kModifyPhoneCountDownExecutingNotification      @"kModifyPhoneCountDownExecutingNotification"
+#define kPwdManagerCountDownExecutingNotification        @"kPwdManagerCountDownExecutingNotification"
 
 
 #undef    DEF_SINGLETON
@@ -40,6 +42,8 @@ typedef NS_ENUM(NSInteger, kCountDownType) {
     kCountDownTypeFindPassword,
     kCountDownTypeRegister,
     kCountDownTypeModifyPhone,
+    kCountDownTypePwdManager,
+    
 };
 
 @interface SecureCodeTimerManager : NSObject
